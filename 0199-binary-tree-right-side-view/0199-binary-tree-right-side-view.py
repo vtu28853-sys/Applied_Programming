@@ -19,7 +19,7 @@ class Solution:
         while queue:
             level_size = len(queue)
             
-            # Iterate through all nodes at the current level
+            # Process all nodes at the current level
             for i in range(level_size):
                 node = queue.popleft()
                 
