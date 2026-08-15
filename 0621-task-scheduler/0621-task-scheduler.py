@@ -6,22 +6,20 @@ class Solution:
         # Count frequency of each task
         freq = Counter(tasks)
         
-        # Find the maximum frequency
+        # Find the maximum frequency among all tasks
         max_freq = max(freq.values())
         
         # Count how many tasks have this maximum frequency
         max_count = sum(1 for f in freq.values() if f == max_freq)
         
-        # Calculate the number of "idle slots" required
-        # We have (max_freq - 1) groups of tasks
-        # Each group needs 'n' slots (some might be filled by other tasks, others idle)
-        # The last group doesn't need idle time after it
-        
-        # Total slots needed = (max_freq - 1) * (n + 1) + max_count
-        # This represents the structure: [MaxTask, others, idle..., MaxTask, others, idle...]
+        # Calculate the minimum slots required based on the bottleneck task
+        # Structure: [MaxTask, others, idle..., MaxTask, others, idle..., MaxTask]
+        # Number of full groups = (max_freq - 1)
+        # Size of each group = (n + 1)
+        # Remaining slots for the last group = max_count
         num_slots = (max_freq - 1) * (n + 1) + max_count
         
         # The answer is the maximum of:
-        # 1. The calculated slots (which includes idles)
-        # 2. The total number of tasks (if no idles are needed because we have enough different tasks)
+        # 1. The calculated slots (which accounts for mandatory idle times)
+        # 2. The total number of tasks (if we have enough different tasks to fill all idle slots)
         return max(num_slots, len(tasks))
