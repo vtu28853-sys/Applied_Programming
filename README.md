@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0621-task-scheduler) |
 | [0622-design-circular-queue](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0622-design-circular-queue) |
 | [0641-design-circular-deque](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0641-design-circular-deque) |
+| [0704-binary-search](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0739-daily-temperatures) |
 | [0946-validate-stack-sequences](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0946-validate-stack-sequences) |
 | [0977-squares-of-a-sorted-array](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0977-squares-of-a-sorted-array) |
@@ -202,4 +203,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0621-task-scheduler](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0621-task-scheduler) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
