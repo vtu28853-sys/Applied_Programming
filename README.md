@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0622-design-circular-queue](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0622-design-circular-queue) |
 | [0641-design-circular-deque](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0641-design-circular-deque) |
 | [0946-validate-stack-sequences](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0946-validate-stack-sequences) |
+| [0977-squares-of-a-sorted-array](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0977-squares-of-a-sorted-array) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/vtu28853-sys/Applied_Programming/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/vtu28853-sys/Applied_Programming/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 ## Two Pointers
@@ -24,11 +25,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0344-reverse-string) |
 | [0876-middle-of-the-linked-list](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0876-middle-of-the-linked-list) |
+| [0977-squares-of-a-sorted-array](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0977-squares-of-a-sorted-array) |
 ## Sorting
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0075-sort-colors) |
 | [0621-task-scheduler](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0621-task-scheduler) |
+| [0977-squares-of-a-sorted-array](https://github.com/vtu28853-sys/Applied_Programming/tree/master/0977-squares-of-a-sorted-array) |
 ## Quicksort
 |  |
 | ------- |
